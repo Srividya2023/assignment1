@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="assignment5.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/20c5629a29.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img
+            src="https://img.freepik.com/premium-vector/kitchen-chef-logo-design-vector-template_15146-1164.jpg?size=626&ext=jpg&ga=GA1.1.1610026223.1669570657&semt=ais"
+            class="food-munch-logo"
+          />
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-auto">
+            <a class="nav-link active" id="navItem1" href="#wcuSection">
+              Why Choose Us?
+              <span class="sr-only">(current)</span>
+            </a>
+            <a class="nav-link" href="#exploreMenuSection" id="navItem2">Explore Menu</a>
+            <a class="nav-link" href="#deliveryPaymentSection" id="navItem3">Delivery & Payment</a>
+            <a class="nav-link" href="#redeemGift" id="navItem4">Reedeem Gift </a>
+            <a class="nav-link" href="#followUsSection" id="navItem5">Follow Us</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="banner-section-bg-container d-flex justify-content-center flex-column">
+      <div class="text-center">
+        <h1 class="banner-heading mb-3">Get Delicious Food Anytime</h1>
+        <p class="banner-caption mb-4">Eat Smart & Healthy</p>
+        <button type="button" class="orange bn custom-button" data-toggle="modal" data-target="#exampleModall">
+          View Button
+      </button>
+      <div class="modal fade" id="exampleModall" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+              <div class="modal-content">
+                  <div class="modal-header">
+                      <h5 class="modal-title dark-cem weight" id="exampleModalLabel">NUTRITION NOTES</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                      </button>
+                  </div>
+                  <div class="modal-body light-cem">
+                      <p>
+                        Eating good food, especially with family and friends,
+                         is one of the pleasures of life.We all know that people
+                          who eat healthy, balanced diets are likely to have:
+
+                      plenty of energy to work and enjoy themselves;
+
+                      fewer infections and other illnesses.
+
+                      Children who eat well usually grow well.Women who eat well are likely to produce healthy babies. That is why it is important to know which combinations of foods make good meals and what the different food needs of different members of the family are.
+                      </p>
+                      <div class="background-card ">
+                      <p>
+                          <span class="weight">Non-veg Starters: </span>  starting from 180/- 
+                      </p>
+                      <p>
+                          <span class="weight"> Veg starters:</span>  starting from 120/-
+                      </p>
+                      <p>
+                          <span class="weight"> salads:</span> starting from 150/-
+                      </p>
+                      <p>
+                          <span class="weight"> soups:</span>Starting from 250/-
+                      </p>
+                      <p>
+                          <span class="weight"> Desserts:</span> Starting from 100/-
+                      </p>
+                      <p>
+                        <span class="weight"> Many more.........
+                    </p>
+                  </div>
+                  </div>
+                  <div class="modal-footer">
+                      <button type="button" class="btn btn-white border-secondary" data-dismiss="modal">Buy Now</button>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+
+        <button class="custom-outline-button"><a href="#deliveryPaymentSection" class="font">Order Now</a></button>
+      </div>
+    </div>
+    <div class="wcu-section pt-5 pb-5" id="wcuSection">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h1 class="wcu-section-heading">Why Choose Us?</h1>
+            <p class="wcu-section-description">
+              We use both original recipes and classic versions of famous food
+              items.
+            </p>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="shadow wcu-card p-3 mb-3">
+              <img
+                src="https://t3.ftcdn.net/jpg/02/32/62/58/240_F_232625881_AWlwstfOT14gGx12u0VrdjY1y2S9nbso.jpg"
+                class="wcu-card-image"
+              />
+              <h1 class="wcu-card-title mt-3">Food Service</h1>
+              <p class="wcu-card-description">
+                Experience fine dining at the comfort of your home. All our
+                orders are carefully packed and arranged to give you the nothing
+                less than perfect.
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="shadow wcu-card p-3 mb-3">
+              <img
+                src="https://img.freepik.com/premium-photo/organic-food-vegetables-basket_135427-2767.jpg?size=626&ext=jpg&ga=GA1.1.1610026223.1669570657&semt=ais"
+                class="wcu-card-image"
+              />
+              <h1 class="wcu-card-title mt-3">Fresh Food</h1>
+              <p class="wcu-card-description">
+                The Fresh Food group provides fresh-cut fruits and vegetables
+                directly picked from our partner farms and farm houses so that
+                you always get them tree to plate.
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="shadow wcu-card p-3 mb-3">
+              <img
+                src="https://img.freepik.com/free-photo/purple-open-gift-box-with-voucher-bonus-surprise-minimal-present-greeting-celebration-promotion-discount-sale-reward-icon-3d-illustration_56104-2100.jpg?size=626&ext=jpg&ga=GA1.2.1610026223.1669570657&semt=sph"
+                class="wcu-card-image"
+              />
+              <h1 class="wcu-card-title mt-3">Best Offers</h1>
+              <p class="wcu-card-description">
+                Food Coupons & Offers upto
+                <span class="offers">50% OFF</span>
+                and Exclusive Promo Codes on All Online Food Orders.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="explore-menu-section pt-5 pb-5" id="exploreMenuSection">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h1 class="menu-section-heading">Explore Menu</h1>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="shadow menu-item-card p-3 mb-3">
+              <img
+                src="https://img.freepik.com/premium-photo/tandoori-chicken-is-chicken-dish-prepared-by-roasting-chicken-marinated-yogurt-spices-tandoor-clay-oven-served-with-onion-green-chutney_466689-77615.jpg?size=626&ext=jpg&ga=GA1.2.1610026223.1669570657&semt=ais"
+                class="menu-item-image w-100"
+              />
+              <h1 class="menu-card-title">Non-Veg Starters</h1>
+              
+              <button type="button" class="orange bn  custom-button" data-toggle="modal" data-target="#exampleModal1">
+                View Details
+            </button>
+            <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title dark-cem weight" id="exampleModalLabel">Price Details</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body light-cem">
+                            <p>
+                               Biryani is a recipe packed full 
+                              of your favorite rice, Non-veggies, and spices. Made with patience and lots of love,
+                               this delicious  biryani requires both care and attention to detail. The 
+                               savory flavors in your first bite are well worth the time and effort spent in the kitchen.
+
+                            </p>
+                            <div class="background-card">
+                            <p>
+                                <span class="weight">Kolkata biryani: </span>  300/- 
+                            </p>
+                            <p>
+                                <span class="weight"> Sindhi Biryani:</span>  200/-
+                            </p>
+                            <p>
+                                <span class="weight"> Memoni Biryani:</span> 150/-
+                            </p>
+                            <p>
+                                <span class="weight"> Malabar Biryani:</span> 250/-
+                            </p>
+                            <p>
+                                <span class="weight"> Ambur Biryani:</span>  300/-
+                            </p>
+                        </div>
+                      </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-white border-secondary" data-dismiss="modal">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="shadow menu-item-card p-3 mb-3">
+              <img
+                src="https://img.freepik.com/free-photo/farfalle-pasta-durum-wheat-with-baked-meatballs-chicken-fillet-tomato-sauce-salad-bowl_2829-11169.jpg?size=626&ext=jpg&ga=GA1.1.1610026223.1669570657&semt=ais"
+                class="menu-item-image w-100"
+              />
+              <h1 class="menu-card-title">Veg Starters</h1>
+             
+              <button type="button" class="orange bn custom-button" data-toggle="modal" data-target="#exampleModal2">
+                View Details
+            </button>
+            <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title dark-cem weight" id="exampleModalLabel"> Price Details </h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body light-cem">
+                            <p>
+                              Easy, delicious vegetarian recipes (mostly Indian)  and Eggless 
+                              baking recipes that you can sure count on!
+                            </p>
+                            <div class="background-card">
+                            <p>
+                                <span class="weight"> Corn Pakoda Recipe: </span> 200/-
+                            </p>
+                            <p>
+                                <span class="weight"> Nacho Cheese:</span> 140/-
+                            </p>
+                            <p>
+                                <span class="weight"> Paneer Pakora:</span> 100/-
+                            </p>
+                            <p>
+                                <span class="weight"> Bread Dipping Oil:</span> 50/-
+                            </p>
+                            <p>
+                                <span class="weight"> Samosa Chat: </span> 180/-
+                            </p>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-white border-secondary" data-dismiss="modal">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="menu-item-card shadow p-3 mb-3">
+              <img
+                src="https://img.freepik.com/free-photo/lentil-soup-with-mixed-ingredients-herbs-white-bowl-with-spoon_114579-3083.jpg?size=626&ext=jpg&ga=GA1.1.1610026223.1669570657&semt=sph"
+                class="menu-item-image w-100"
+              />
+              <h1 class="menu-card-title">Soups</h1>
+              
+              <button type="button" class="orange bn custom-button" data-toggle="modal" data-target="#exampleModal3">
+                View Details
+            </button>
+            <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title dark-cem weight" id="exampleModalLabel">Price Details</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body light-cem">
+                            <p>
+                              Soup is a primarily liquid food, generally served warm
+                               or hot that is made by combining ingredients of meat 
+                               or vegetables with stock, milk, or water.
+                            </p>
+                            <div class="background-card">
+                            <p>
+                                <span class="weight"> French onion soup: </span> 40/-
+                            </p>
+                            <p>
+                                <span class="weight"> Espagnole soup:</span> 60/-
+                            </p>
+                            <p>
+                                <span class="weight"> Bisque soup:</span>  30/- 
+                            </p>
+                            <p>
+                                <span class="weight"> Gravy:</span> 70/-
+                            </p>
+                            <p>
+                                <span class="weight"> Vegetable soup: </span> 80/-
+                            </p>
+                          </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-white border-secondary" data-dismiss="modal">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="menu-item-card shadow p-3 mb-3">
+              <img
+                src="https://img.freepik.com/free-photo/bottom-view-fish-fry-fried-eggplants-onion-peppers-wood-board-spices-small-bowls-fork-knife-tomatoes-oil-bottle-mint-dill-dark-background_140725-112096.jpg?size=626&ext=jpg&ga=GA1.2.1610026223.1669570657&semt=ais"
+                class="menu-item-image w-100"
+              />
+              <h1 class="menu-card-title">Fish & Sea food</h1>
+              
+              <button type="button" class="orange bn custom-button" data-toggle="modal" data-target="#exampleModal4">
+                View Details
+            </button>
+            <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title dark-cem weight" id="exampleModalLabel">Price Details</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body light-cem">
+                            <p>
+                              Many species of fish are caught by humans and consumed as
+                               food in virtually all regions around the world. Fish has
+                                been an important dietary source of protein and other 
+                                nutrients throughout human history.
+                            </p>
+                            <div class="background-card">
+                            <p>
+                                <span class="weight"> Saltwater Fish: </span> 340/-
+                            </p>
+                            <p>
+                                <span class="weight"> Freshwater Fish:</span> 200/-
+                            </p>
+                            <p>
+                                <span class="weight"> Shellfish:</span> 140/-
+                            </p>
+                            <p>
+                                <span class="weight"> Mollusks:</span> 320/-
+                            </p>
+                            <p>
+                                <span class="weight"> Crustaceans: </span> 120/-
+                            </p>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-white border-secondary" data-dismiss="modal">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="menu-item-card shadow p-3 mb-3">
+              <img
+                src="https://img.freepik.com/free-photo/yummy-paella-food-arroz-cocina_1350-80.jpg?size=626&ext=jpg&ga=GA1.1.1610026223.1669570657&semt=ais"
+                class="menu-item-image w-100"
+              />
+              <h1 class="menu-card-title">Main Course</h1>
+              
+              <button type="button" class="orange bn custom-button" data-toggle="modal" data-target="#exampleModal5">
+                View Details
+            </button>
+            <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title dark-cem weight" id="exampleModalLabel">Price Details</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body light-cem">
+                            <p>
+                              A main course is the featured or primary dish in a meal 
+                              consisting of several courses. It usually follows the 
+                              entrée ("entry") course.
+                            </p>
+                            <div class="background-card">
+                            <p>
+                                <span class="weight"> Butter Chicken: </span> 100/-
+                            </p>
+                            <p>
+                                <span class="weight">Palak Paneer:</span> 200/-
+                            </p>
+                            <p>
+                              <span class="weight">Bombay Sloppy Joes (Kheema Pav):</span> 140/-
+                            
+                            </p>
+                            <p>
+                                <span class="weight"> Bombay Grilled Chutney Sandwich:</span>  200/-
+                            </p>
+                            <p>
+                                <span class="weight"> Spicy Pork Vindaloo: </span> 300/-
+                            </p>
+                          </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-white border-secondary" data-dismiss="modal">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="menu-item-card shadow p-3 mb-3">
+              <img
+                src="https://img.freepik.com/free-photo/spaghetti-seafood-with-tomato-sauce-decorated-with-beautiful-ingredients_1150-26428.jpg?size=626&ext=jpg&ga=GA1.1.1610026223.1669570657&semt=sph"
+                class="menu-item-image w-100"
+              />
+              <h1 class="menu-card-title">Noodles</h1>
+              
+              <button type="button" class="orange bn custom-button" data-toggle="modal" data-target="#exampleModal6">
+                View Details
+            </button>
+            <div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title dark-cem weight" id="exampleModalLabel">Price Details</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body light-cem">
+                            <p>
+                              Noodles are a type of food made from unleavened dough 
+                              which is either rolled flat and cut, stretched, or extruded,
+                               into long strips or strings.
+                            </p>
+                            <div class="background-card">
+                            <p>
+                                <span class="weight"> Japaneese Noodles: </span> 250/-
+                            </p>
+                            <p>
+                                <span class="weight"> Instant Noodles:</span> 300/-
+                            </p>
+                            <p>
+                                <span class="weight"> Chineese Noodles:</span> 200/-
+                            </p>
+                            <p>
+                                <span class="weight">Indonesian Noodles:</span>120/-
+                            </p>
+                            <p>
+                                <span class="weight"> Soba Noodles: </span> 100/-
+                            </p>
+                          </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-white border-secondary" data-dismiss="modal">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="menu-item-card shadow p-3 mb-3">
+              <img
+                src="https://img.freepik.com/free-photo/salad-from-tomatoes-cucumber-red-onions-lettuce-leaves-healthy-summer-vitamin-menu-vegan-vegetable-food-vegetarian-dinner-table_2829-6473.jpg?size=626&ext=jpg&ga=GA1.2.1610026223.1669570657&semt=sph"
+                class="menu-item-image w-100"
+              />
+              <h1 class="menu-card-title">Salads</h1>
+              
+              <button type="button" class="orange bn custom-button" data-toggle="modal" data-target="#exampleModal7">
+                View Details
+            </button>
+            <div class="modal fade" id="exampleModal7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title dark-cem weight" id="exampleModalLabel">Price Details</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body light-cem">
+                            <p>
+                              A salad is a dish consisting of mixed, mostly natural ingredients.
+                               They are typically served at room temperature or chilled, though 
+                               some can be served warm.
+                            </p>
+                            <div class="background-card">
+                            <p>
+                                <span class="weight"> Perfect Greek Salad: </span> 30/-
+                            </p>
+                            <p>
+                                <span class="weight">Italian Pasta Salad :</span> 45/-
+                            </p>
+                            <p>
+                                <span class="weight"> Tomato Cucumber Avocado:</span> 34/-
+                            </p>
+                            <p>
+                                <span class="weight"> Potato Salad:</span> 60/-
+                            </p>
+                            <p>
+                                <span class="weight"> Green Salad: </span> 50/-
+                            </p>
+                          </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-white border-secondary" data-dismiss="modal">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="menu-item-card shadow p-3 mb-3">
+              <img
+                src="https://img.freepik.com/free-photo/belgium-waffles-with-strawberries-ice-cream-white-plate_2829-13952.jpg?size=626&ext=jpg&ga=GA1.1.1610026223.1669570657&semt=sph"
+                class="menu-item-image w-100"
+              />
+              <h1 class="menu-card-title">Desserts</h1>
+             
+              <button type="button" class="orange bn custom-button" data-toggle="modal" data-target="#exampleModal8">
+                View Details
+            </button>
+            <div class="modal fade" id="exampleModal8" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title dark-cem weight" id="exampleModalLabel"> Price Details</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body light-cem">
+                            <p>
+                              Dessert is a course that concludes a meal.
+                               The course consists of sweet foods, such as candy,
+                                and possibly a beverage such as dessert wine and liqueur.
+                            </p>
+                            <div class="background-card">
+                            <p>
+                                <span class="weight"> Baked desserts: </span> 200/-
+                            </p>
+                            <p>
+                                <span class="weight"> Frozen desserts:</span> 180/-
+                            </p>
+                            <p>
+                                <span class="weight"> Dessert drinks:</span> 100/-
+                            </p>
+                            <p>
+                                <span class="weight"> Cold desserts:</span> 120/-
+                            </p>
+                            <p>
+                                <span class="weight"> Fried desserts: </span> 320/-
+                            </p>
+                        </div>
+                      </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-white border-secondary" data-dismiss="modal">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="healthy-food-section pt-5 pb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-5">
+            <div class="text-center">
+              <img
+                src="https://img.freepik.com/free-photo/top-view-meals-tasty-yummy-different-pastries-dishes-brown-surface_140725-14554.jpg?size=626&ext=jpg&ga=GA1.1.1610026223.1669570657&semt=sph"
+                class="healthy-food-section-img"
+              />
+            </div>
+          </div>
+          <div class="col-12 col-md-7 d-flex flex-column justify-content-center">
+            <h1 class="healthy-food-section-heading">
+              Fresh, Healthy, Organic, Delicious Fruits
+            </h1>
+            
+            <p class="healthy-food-section-description">
+              Say no to harmful chemicals and go fully organic with our range of
+              fresh fruits and veggies. Pamper your body and your senses with
+              the true and unadulterated gifts from mother nature. with the true
+              and unadulterated gifts from mother nature.
+            </p>
+           
+           <button type="button" class="orange bn custom-button" data-toggle="modal" data-target="#exampleModalll">
+              Watch Video
+          </button>
+          <div class="modal fade" id="exampleModalll" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                  <div class="modal-content">
+                      <div class="modal-header">
+                          <h5 class="modal-title dark-cem weight" id="exampleModalLabel">An instance of our recipes</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                          </button>
+                      </div>
+                      
+
+                      <div class="embed-responsive embed-responsive-16by9 ">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/PVcAhAxQcgM"
+                         title="YouTube video player" frameborder="0" allow="accelerometer;
+                          autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                           allowfullscreen></iframe>
+                      </div>
+
+                      <div class="modal-body light-cem background-card m-3">
+                        <p>
+                          This is a recording of our recipes.
+                           You can subscribe to receive invitations to 
+                           future recipes at <a href="https://youtu.be/PVcAhAxQcgM">https://youtu.be/PVcAhAxQcgM</a>... .
+                           
+
+                            We are always interested in receiving feedback, so please
+                             don't hesitate to comment or reach out with a personal 
+                             message.</p>
+                        
+                    </div>
+                  </div>
+              </div>
+          </div>
+    
+
+
+        </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="delivery-and-payment-section pt-5 pb-5" id="deliveryPaymentSection">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-5 order-1 order-md-2">
+            <div class="text-center">
+              <img
+                src="https://img.freepik.com/free-vector/cash-delivery-concept_23-2148798392.jpg?size=626&ext=jpg&ga=GA1.1.1610026223.1669570657&semt=ais"
+                class="delivery-and-payment-section-img"
+              />
+            </div>
+          </div>
+          <div class="col-12 col-md-7 order-2 order-md-1">
+            <h1 class="delivery-and-payment-section-heading">
+              Delivery and Payment
+            </h1>
+            <p class="delivery-and-payment-section-description">
+              Enjoy hassle-free payment with the plenitude of payment options
+              available for you. Get live tracking and locate your food on a
+              live map. It's quite a sight to see your food arrive to your door.
+              Plus, you get a 5% discount on every order every time you pay
+              online.
+            </p>
+           
+            <button type="button" class="orange bn  custom-button" data-toggle="modal" data-target="#exampleModal23" id="orderNow">
+              Order Now
+          </button>
+          <div class="modal fade" id="exampleModal23" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                  <div class="modal-content">
+                      <div class="modal-header">
+                          <h5 class="modal-title dark-cem weight" id="exampleModalLabel">Select your mode of payment</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                          </button>
+                      </div>
+                      <div class="modal-body light-cem" id="changedWhole">
+                        <div class="mt-3" id="innerWhole">
+                          
+                          <img
+                            src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/visa-card-img.png"
+                            class="payment-card-img" id="visa"
+                          />
+                          <img
+                            src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/master-card-img.png"
+                            class="payment-card-img" id="MasterCard"
+                          />
+                          <img
+                            src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/paypal-card-img.png"
+                            class="payment-card-img" id="payPal"
+                          />
+                          <img
+                            src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/american-express-img.png"
+                            class="payment-card-img" id="americanExpress"
+                          />
+
+                        </div>
+                    </div>
+
+                    <div class="modal-footer" id="paidSuccessful">
+                      <p id="paraEl" class="m-auto w-70 paid-successful ">
+
+                      </p>
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                        Close
+                      </button>
+                    </div>
+                     
+                  </div>
+              </div>
+          </div>
+
+
+
+
+
+
+
+
+
+          
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="thanking-customers-section pt-5 pb-5" id="redeemGift">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-7 d-flex flex-column justify-content-center">
+           
+            <h1 class="thanking-customers-section-heading">
+              Thank you for being a valuable customer to us.
+            </h1>
+            <p class="thanking-customers-section-description">
+              We have a surprise gift for you
+            </p>
+          
+            <div class="d-md-none text-center">
+              <img
+                src="https://img.freepik.com/free-photo/gift-box_74190-7772.jpg?size=626&ext=jpg&ga=GA1.1.80563711.1681980854&semt=ais"
+                class="thanking-customers-section-img"
+              />
+            </div>
+           <div>
+              
+              <button type="button" class="custom-button" data-toggle="modal" data-target="#exampleModalt" id="redeemVoucher">
+                Redeem Gift
+              </button>
+         
+              <div class="modal fade" id="exampleModalt" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog mt-5">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title thanking-customers-section-modal-title" id="exampleModalLabel">
+                        Gift Voucher
+                        <span id="timer" class="time-section-heading ml-4">
+                          Time Limit
+                        </span>
+                      </h5>
+                      
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body" >
+                      <img
+                        src="https://img.freepik.com/premium-vector/christmas-new-year-s-day-red-gift-box-white-background-illustration_164911-157.jpg?size=626&ext=jpg&ga=GA1.1.80563711.1681980854&semt=ais"
+                        class="w-100" id="imageChanger"
+                      />
+                      <div id="giftBoxContainer" class="wcu-section-description m-3">
+
+                      </div>
+                      <div class="text-center">
+                      <button id="defuser" class="custom-button m-4 ">
+                       Get it Now
+                      </button>
+                    </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                        Close
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-5 d-none d-md-block">
+            <img
+              src="https://img.freepik.com/free-photo/gift-box_74190-7772.jpg?size=626&ext=jpg&ga=GA1.1.80563711.1681980854&semt=ais"
+              class="thanking-customers-section-img"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="follow-us-section pt-5 pb-5" id="followUsSection">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h1 class="follow-us-section-heading">Follow Us</h1>
+          </div>
+          <div class="col-12">
+            <div class="d-flex flex-row justify-content-center">
+              <div class="follow-us-icon-container">
+                <i class="fab fa-twitter icon"></i>
+              </div>
+              <div class="follow-us-icon-container">
+                <i class="fab fa-instagram icon"></i>
+              </div>
+              <div class="follow-us-icon-container">
+                <i class="fab fa-facebook icon"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-section pt-5 pb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <img
+              src="https://img.freepik.com/premium-vector/kitchen-chef-logo-design-vector-template_15146-1164.jpg?size=626&ext=jpg&ga=GA1.1.1610026223.1669570657&semt=ais"
+              class="food-munch-logo"
+            />
+            <h1 class="footer-section-mail-id">srividya@gmail.com</h1>
+            <p class="footer-section-address">
+              12-3 Kakinada, Kakinada District, Andhra Pradesh.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="assignment5.js"></script>
+  </body>
+</html>
